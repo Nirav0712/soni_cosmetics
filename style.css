@@ -1,0 +1,94 @@
+/* Minimal custom CSS for things that are complex as pure utilities. Most styling is now Tailwind utilities in HTML. */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Modal Overlay & Transitions */
+#productModal {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#productModal .modal-content {
+  transition: transform 0.3s ease;
+  transform: scale(0.9);
+}
+
+#productModal.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+#productModal.is-active .modal-content {
+  transform: scale(1);
+}
+
+/* Mobile Nav Menu Transitions */
+#navList {
+  transition: left 0.3s ease;
+}
+
+#navList.is-active {
+  left: 0;
+}
+
+/* Custom Scrollbar for Info Col */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #c1c1c1; 
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8; 
+}
+
+/* Product Image Slider Container */
+.slider-container:hover .slider-btn {
+  opacity: 1;
+}
+
+/* Active Filter Link */
+.filter-link.is-active {
+  color: #b8926a; /* Tailwind accent color */
+  font-weight: 500;
+}
+
+/* Image zoom on hover for Instagram and Hero */
+.hover-zoom-img:hover img {
+  transform: scale(1.05);
+}
+
+.hover-zoom-img-insta:hover img {
+  transform: scale(1.1);
+}
+
+.hover-overlay-group:hover .hover-overlay {
+  opacity: 1;
+}
+
+/* Underline Animation on Nav Links */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #b8926a;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after, .nav-link.is-active::after {
+  width: 100%;
+}

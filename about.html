@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | Elysian</title>
-  
+  <title>Our Story | Soni Cosmetics</title>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -29,20 +30,24 @@
     }
   </script>
 </head>
+
 <body class="font-main bg-white text-primary antialiased leading-relaxed">
 
   <!-- ========== HEADER ========== -->
   <header id="siteHeader" class="relative transition-all duration-300 border-b border-border z-50">
     <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center bg-white">
-      <div class="text-2xl font-heading font-bold tracking-tight">
-        <a href="index.html" class="flex items-center gap-2 hover:text-accent transition-colors"><i class="fas fa-gem text-accent"></i> Elysian</a>
+      <div class="h-12 w-auto">
+        <a href="index.html" class="flex items-center h-full hover:opacity-80 transition-opacity">
+          <img src="logo.png" alt="Soni Cosmetics" class="h-full w-auto">
+        </a>
       </div>
-      
+
       <nav class="hidden md:flex items-center gap-8">
         <ul class="flex gap-8 items-center text-sm font-medium uppercase tracking-wide">
           <li><a href="index.html" class="nav-link hover:text-accent relative py-1 transition-colors">Home</a></li>
           <li><a href="about.html" class="nav-link is-active text-accent relative py-1">About</a></li>
-          <li><a href="products.html" class="nav-link hover:text-accent relative py-1 transition-colors">Products</a></li>
+          <li><a href="products.html" class="nav-link hover:text-accent relative py-1 transition-colors">Products</a>
+          </li>
           <li><a href="blog.html" class="nav-link hover:text-accent relative py-1 transition-colors">Blog</a></li>
           <li><a href="contact.html" class="nav-link hover:text-accent relative py-1 transition-colors">Contact</a></li>
         </ul>
@@ -54,11 +59,13 @@
 
       <div class="flex md:hidden items-center gap-4 text-xl">
         <a href="#" class="hover:text-accent transition-colors"><i class="fas fa-shopping-bag"></i></a>
-        <button id="hamburgerBtn" class="text-primary focus:outline-none hover:text-accent transition-colors"><i class="fas fa-bars"></i></button>
+        <button id="hamburgerBtn" class="text-primary focus:outline-none hover:text-accent transition-colors"><i
+            class="fas fa-bars"></i></button>
       </div>
     </div>
-    
-    <div id="navList" class="fixed top-20 left-0 w-full h-[calc(100vh-80px)] bg-white flex flex-col items-center justify-center gap-8 -translate-x-full transition-transform duration-300 md:hidden z-40 border-t border-border">
+
+    <div id="navList"
+      class="fixed top-20 left-0 w-full h-[calc(100vh-80px)] bg-white flex flex-col items-center justify-center gap-8 -translate-x-full transition-transform duration-300 md:hidden z-40 border-t border-border">
       <a href="index.html" class="text-xl font-heading font-medium hover:text-accent transition-colors">Home</a>
       <a href="about.html" class="text-xl font-heading font-medium text-accent">About</a>
       <a href="products.html" class="text-xl font-heading font-medium hover:text-accent transition-colors">Products</a>
@@ -71,9 +78,10 @@
     <!-- PAGE HEADER -->
     <section class="pt-32 pb-16 bg-surface text-center">
       <div class="max-w-7xl mx-auto px-6">
-        <h1 class="text-4xl md:text-5xl font-heading font-semibold mb-4">Our Story</h1>
+        <h1 class="text-4xl md:text-5xl font-heading font-semibold mb-4">Behind the Glow</h1>
         <div class="flex justify-center items-center gap-2 text-secondary font-main text-sm uppercase tracking-wider">
-          <a href="index.html" class="hover:text-accent transition-colors">Home</a> <span class="mx-1">/</span> <span class="text-primary font-medium">About</span>
+          <a href="index.html" class="hover:text-accent transition-colors">Home</a> <span class="mx-1">/</span> <span
+            class="text-primary font-medium">About</span>
         </div>
       </div>
     </section>
@@ -82,12 +90,20 @@
     <section class="py-24">
       <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
-          <h2 class="text-3xl md:text-4xl font-heading font-semibold mb-8">Crafting Spaces <span class="text-accent italic font-normal">With Soul</span></h2>
-          <p class="mb-6 text-secondary text-lg leading-relaxed">Founded in 2018, Elysian was born out of a desire to create furniture and décor that merges timeless elegance with everyday functionality. We believe that your home is a sanctuary—a deeply personal space that should reflect your individual style while providing unmatched comfort.</p>
-          <p class="text-secondary text-lg leading-relaxed">Every piece in our collection is thoughtfully curated and consciously crafted by skilled artisans who share our dedication to quality, sustainability, and beautiful design.</p>
+          <h2 class="text-3xl md:text-4xl font-heading font-semibold mb-8">Science Meets <span
+              class="text-accent italic font-normal">Natural Beauty</span></h2>
+          <p class="mb-6 text-secondary text-lg leading-relaxed">Founded in 2020 by Soni V., Soni Cosmetics was born out
+            of a passion for clean, high-performance skincare and makeup. We believe that beauty shouldn't be a
+            compromise between health and results.</p>
+          <p class="text-secondary text-lg leading-relaxed">Our lab in Mumbai focuses on marrying traditional botanical
+            wisdom with modern dermatological science to create formulations that truly transform your skin from within.
+          </p>
         </div>
         <div class="relative rounded-2xl overflow-hidden shadow-xl">
-          <img src="https://picsum.photos/id/1020/800/600" alt="About our studio" class="w-full h-auto object-cover">
+          <img
+            src="https://images.unsplash.com/photo-1658387576587-059dc1748b59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvc21ldGljcyUyMGxhYnxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Cosmetic Lab"
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
         </div>
       </div>
     </section>
@@ -97,11 +113,13 @@
       <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
         <div>
           <h3 class="text-3xl font-heading font-semibold text-accent mb-6">Our Mission</h3>
-          <p class="text-lg text-white/80 leading-relaxed font-main">To democratize design by providing premium, meticulously crafted interior products that inspire intentional living and elevate the everyday human experience.</p>
+          <p class="text-lg text-white/80 leading-relaxed font-main">To empower every individual with confidence through
+            high-quality, cruelty-free, and dermatologically tested cosmetic products that celebrate diverse beauty.</p>
         </div>
         <div>
           <h3 class="text-3xl font-heading font-semibold text-accent mb-6">Our Vision</h3>
-          <p class="text-lg text-white/80 leading-relaxed font-main">To become the global destination for design-conscious individuals seeking sustainable, modern, and high-quality furnishings for their homes.</p>
+          <p class="text-lg text-white/80 leading-relaxed font-main">To be the global leader in conscious beauty,
+            setting the standard for ingredient transparency and sustainable luxury in the cosmetic industry.</p>
         </div>
       </div>
     </section>
@@ -110,30 +128,34 @@
     <section class="py-24">
       <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-16 relative">
-          <h2 class="text-3xl md:text-4xl font-heading font-semibold inline-block relative pb-4">Why Choose Elysian
+          <h2 class="text-3xl md:text-4xl font-heading font-semibold inline-block relative pb-4">The Soni Commitment
             <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-1 bg-accent"></div>
           </h2>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="text-center p-8 bg-surface rounded-xl hover:-translate-y-2 transition-transform duration-300">
-            <i class="fas fa-leaf text-4xl text-accent mb-6"></i>
-            <h4 class="text-xl font-heading font-semibold mb-4">Sustainable Sourcing</h4>
-            <p class="text-secondary font-main">We prioritize eco-friendly materials and ethical manufacturing processes in all of our products.</p>
+            <i class="fas fa-vial text-4xl text-accent mb-6"></i>
+            <h4 class="text-xl font-heading font-semibold mb-4">Clean Ingredients</h4>
+            <p class="text-secondary font-main">Formulated without parabens, sulfates, or harmful synthetics. Just pure
+              skin goodness.</p>
           </div>
           <div class="text-center p-8 bg-surface rounded-xl hover:-translate-y-2 transition-transform duration-300">
-            <i class="fas fa-medal text-4xl text-accent mb-6"></i>
-            <h4 class="text-xl font-heading font-semibold mb-4">Premium Quality</h4>
-            <p class="text-secondary font-main">Every piece undergoes strict quality control spanning from raw materials to the final finish.</p>
+            <i class="fas fa-paw text-4xl text-accent mb-6"></i>
+            <h4 class="text-xl font-heading font-semibold mb-4">Cruelty Free</h4>
+            <p class="text-secondary font-main">We never test on animals. Every product is ethically manufactured and
+              100% cruelty-free.</p>
           </div>
           <div class="text-center p-8 bg-surface rounded-xl hover:-translate-y-2 transition-transform duration-300">
-            <i class="fas fa-pencil-ruler text-4xl text-accent mb-6"></i>
-            <h4 class="text-xl font-heading font-semibold mb-4">Timeless Design</h4>
-            <p class="text-secondary font-main">Our aesthetic is immune to fleeting trends, ensuring your home looks effortlessly chic for years.</p>
+            <i class="fas fa-microscope text-4xl text-accent mb-6"></i>
+            <h4 class="text-xl font-heading font-semibold mb-4">Science Backed</h4>
+            <p class="text-secondary font-main">Every drop is rigorously tested for stability and efficacy by our team
+              of experts.</p>
           </div>
           <div class="text-center p-8 bg-surface rounded-xl hover:-translate-y-2 transition-transform duration-300">
-            <i class="fas fa-box-open text-4xl text-accent mb-6"></i>
-            <h4 class="text-xl font-heading font-semibold mb-4">White Glove Delivery</h4>
-            <p class="text-secondary font-main">Enjoy hassle-free shipping and professional assembly options directly inside your home.</p>
+            <i class="fas fa-globe-americas text-4xl text-accent mb-6"></i>
+            <h4 class="text-xl font-heading font-semibold mb-4">Eco Packaging</h4>
+            <p class="text-secondary font-main">We use recyclable glass and responsibly sourced materials to minimize
+              our footprint.</p>
           </div>
         </div>
       </div>
@@ -143,30 +165,34 @@
     <section class="py-24 bg-surface">
       <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-16 relative">
-          <h2 class="text-3xl md:text-4xl font-heading font-semibold inline-block relative pb-4">Meet Our Team
+          <h2 class="text-3xl md:text-4xl font-heading font-semibold inline-block relative pb-4">Our Beauty Experts
             <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 h-1 bg-accent"></div>
           </h2>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
           <div class="text-center group">
-            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Eleanor Vance" class="w-48 h-48 rounded-full object-cover mx-auto mb-6 shadow-md group-hover:shadow-lg transition-shadow">
-            <h4 class="text-lg font-heading font-semibold text-primary">Eleanor Vance</h4>
-            <span class="text-accent text-sm font-main uppercase tracking-wider">Founder & Director</span>
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Soni V."
+              class="w-48 h-48 rounded-full object-cover mx-auto mb-6 shadow-md group-hover:shadow-lg transition-shadow">
+            <h4 class="text-lg font-heading font-semibold text-primary">Soni V.</h4>
+            <span class="text-accent text-sm font-main uppercase tracking-wider">Founder & CEO</span>
           </div>
           <div class="text-center group">
-            <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Marcus Chen" class="w-48 h-48 rounded-full object-cover mx-auto mb-6 shadow-md group-hover:shadow-lg transition-shadow">
-            <h4 class="text-lg font-heading font-semibold text-primary">Marcus Chen</h4>
-            <span class="text-accent text-sm font-main uppercase tracking-wider">Lead Designer</span>
+            <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Dr. Amil Shah"
+              class="w-48 h-48 rounded-full object-cover mx-auto mb-6 shadow-md group-hover:shadow-lg transition-shadow">
+            <h4 class="text-lg font-heading font-semibold text-primary">Dr. Amil Shah</h4>
+            <span class="text-accent text-sm font-main uppercase tracking-wider">Lead Cosmetic Chemist</span>
           </div>
           <div class="text-center group">
-            <img src="https://randomuser.me/api/portraits/women/42.jpg" alt="Sarah Jenkins" class="w-48 h-48 rounded-full object-cover mx-auto mb-6 shadow-md group-hover:shadow-lg transition-shadow">
-            <h4 class="text-lg font-heading font-semibold text-primary">Sarah Jenkins</h4>
-            <span class="text-accent text-sm font-main uppercase tracking-wider">Head of Curation</span>
+            <img src="https://randomuser.me/api/portraits/women/42.jpg" alt="Rhea Kapoor"
+              class="w-48 h-48 rounded-full object-cover mx-auto mb-6 shadow-md group-hover:shadow-lg transition-shadow">
+            <h4 class="text-lg font-heading font-semibold text-primary">Rhea Kapoor</h4>
+            <span class="text-accent text-sm font-main uppercase tracking-wider">Head of Artistry</span>
           </div>
           <div class="text-center group">
-            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="David Miller" class="w-48 h-48 rounded-full object-cover mx-auto mb-6 shadow-md group-hover:shadow-lg transition-shadow">
-            <h4 class="text-lg font-heading font-semibold text-primary">David Miller</h4>
-            <span class="text-accent text-sm font-main uppercase tracking-wider">Operations Manager</span>
+            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="Vikram Singh"
+              class="w-48 h-48 rounded-full object-cover mx-auto mb-6 shadow-md group-hover:shadow-lg transition-shadow">
+            <h4 class="text-lg font-heading font-semibold text-primary">Vikram Singh</h4>
+            <span class="text-accent text-sm font-main uppercase tracking-wider">Director of Sourcing</span>
           </div>
         </div>
       </div>
@@ -177,47 +203,59 @@
   <footer class="bg-primary text-white/80 pt-20 pb-8">
     <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
       <div class="col-span-1 lg:col-span-4">
-        <div class="text-2xl font-heading font-bold text-white mb-4"><i class="fas fa-gem text-accent"></i> Elysian</div>
-        <p class="mb-6 leading-relaxed">Elevating everyday living through mindful design and exceptional craftsmanship. Your sanctuary begins here.</p>
+        <div class="h-10 w-auto mb-4">
+          <img src="logo.png" alt="Soni Cosmetics" class="h-full w-auto invert brightness-0">
+        </div>
+        <p class="mb-6 leading-relaxed">Elevating beauty through science and nature. Soni Cosmetics is dedicated to
+          providing luxury products for every skin story.</p>
         <div class="flex gap-4">
-          <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:-translate-y-1 transition-all text-white"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:-translate-y-1 transition-all text-white"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:-translate-y-1 transition-all text-white"><i class="fab fa-twitter"></i></a>
+          <a href="#"
+            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:-translate-y-1 transition-all text-white"><i
+              class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/soni_cosmetics_wholesale" target="_blank"
+            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:-translate-y-1 transition-all text-white"><i
+              class="fab fa-instagram"></i></a>
+          <a href="#"
+            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:-translate-y-1 transition-all text-white"><i
+              class="fab fa-twitter"></i></a>
         </div>
       </div>
-      
+
       <div class="col-span-1 lg:col-span-2 lg:col-start-6">
         <h4 class="text-white font-heading font-semibold text-lg mb-6">Explore</h4>
         <ul class="space-y-3 font-main">
           <li><a href="index.html" class="hover:text-accent transition-colors">Home</a></li>
-          <li><a href="about.html" class="hover:text-accent transition-colors">About Us</a></li>
-          <li><a href="products.html" class="hover:text-accent transition-colors">Shop Collection</a></li>
-          <li><a href="blog.html" class="hover:text-accent transition-colors">Journal</a></li>
+          <li><a href="about.html" class="hover:text-accent transition-colors">About Soni</a></li>
+          <li><a href="products.html" class="hover:text-accent transition-colors">Shop Selection</a></li>
+          <li><a href="blog.html" class="hover:text-accent transition-colors">Beauty Journal</a></li>
           <li><a href="contact.html" class="hover:text-accent transition-colors">Contact Us</a></li>
         </ul>
       </div>
-      
+
       <div class="col-span-1 lg:col-span-3">
-        <h4 class="text-white font-heading font-semibold text-lg mb-6">Need Help?</h4>
+        <h4 class="text-white font-heading font-semibold text-lg mb-6">Customer Care</h4>
         <ul class="space-y-4 font-main">
-          <li class="flex items-start gap-3"><i class="fas fa-map-marker-alt text-accent mt-1"></i> 124 Design Avenue, NY</li>
-          <li class="flex items-start gap-3"><i class="fas fa-phone text-accent mt-1"></i> +1 (212) 555-0198</li>
-          <li class="flex items-start gap-3"><i class="fas fa-envelope text-accent mt-1"></i> hello@elysian.com</li>
+          <li class="flex items-start gap-3"><i class="fas fa-map-marker-alt text-accent mt-1"></i> Chikhali Akurdi Rd, Krishna Nagar, Sector 19, More Vasti, Chikhali, Pimpri-Chinchwad, Maharashtra 411019</li>
+          <li class="flex items-start gap-3"><i class="fas fa-phone text-accent mt-1"></i> +91 99229 58907</li>
+          <li class="flex items-start gap-3"><i class="fas fa-envelope text-accent mt-1"></i> jchapale20@gmail.com
+          </li>
         </ul>
       </div>
-      
+
       <div class="col-span-1 lg:col-span-3 md:col-span-2">
-        <h4 class="text-white font-heading font-semibold text-lg mb-6">Stay Inspired</h4>
-        <p class="mb-4 text-sm">Sign up for our newsletter to receive the latest updates.</p>
+        <h4 class="text-white font-heading font-semibold text-lg mb-6">Stay Radiant</h4>
+        <p class="mb-4 text-sm">Join our newsletter for the latest beauty drops.</p>
         <form class="flex" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
-          <input type="email" placeholder="Your email" required class="flex-grow px-4 py-3 rounded-l bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-accent font-main">
-          <button type="submit" class="px-5 bg-accent hover:bg-accent-hover text-white rounded-r transition-colors"><i class="fas fa-paper-plane"></i></button>
+          <input type="email" placeholder="Your email" required
+            class="flex-grow px-4 py-3 rounded-l bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-accent font-main">
+          <button type="submit" class="px-5 bg-accent hover:bg-accent-hover text-white rounded-r transition-colors"><i
+              class="fas fa-paper-plane"></i></button>
         </form>
       </div>
     </div>
-    
+
     <div class="max-w-7xl mx-auto px-6 border-t border-white/10 pt-8 text-center text-sm">
-      <p>&copy; 2026 Elysian. Crafted with <i class="fas fa-heart text-accent"></i> for modern homes. All rights reserved.</p>
+      <p>&copy; 2026 Soni Cosmetics. Defined by Science, Inspired by You. All rights reserved.</p>
     </div>
   </footer>
 
@@ -228,4 +266,5 @@
     });
   </script>
 </body>
+
 </html>
